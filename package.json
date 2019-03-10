@@ -1,20 +1,22 @@
 {
   "name": "webpack-demo",
+  "sideEffects": [
+    "*.scss"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
+    "start": "NODE_ENV=development webpack-dev-server --open",
     "server": "node server.js",
     "dev-server": "node dev-server.js",
     "watch": "webpack --watch",
-    "build": "webpack --config webpack.config.js"
+    "build": "NODE_ENV=production webpack --config webpack.config.js --mode production"
   },
   "author": "Karol Bulwin",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.11",
-    "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   },
   "devDependencies": {
@@ -29,10 +31,13 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.6.0",
     "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
     "webpack-dev-middleware": "^3.6.1",
     "webpack-dev-server": "^3.2.1",
     "xml-loader": "^1.2.1"
