@@ -1,7 +1,9 @@
+const path = require('path');
 const merge = require('webpack-merge');
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require('webpack');
 const common = require('./webpack.common.js');
 
 console.log(process.env.NODE_ENV);
@@ -9,7 +11,24 @@ console.log(process.env.NODE_ENV);
 module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
+  plugins: [
+    new webpack.HashedModuleIdsPlugin(),
+    new MiniCssExtractPlugin({
+      filename: '[name].[contenthash].css',
+      chunkFilename: '[id].[contenthash].css'
+    })
+  ],
   optimization: {
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    },
     minimizer: [
       new OptimizeCSSAssetsPlugin({}),
       new TerserPlugin({
@@ -31,5 +50,10 @@ module.exports = merge(common, {
         ]
       }
     ]
+  },
+  output: {
+    filename: '[name].[contenthash].js',
+    chunkFilename: '[name].[contenthash].js',
+    path: path.resolve(__dirname, 'dist')
   }
 });
