@@ -1,16 +1,18 @@
+@import 'colors.scss';
+
 body {
-    background: yellowgreen;
-    div {
-        background-color: limegreen;
-        button {
-            padding: .3em 1em;
-            box-shadow: .03em .03em .1em .1em black;
-            transition-duration: 600ms;
-            border-radius: .3em;
-            background-color:whitesmoke;
-            &:hover {
-                box-shadow: .03em .03em .3em .3em black;
-            }
+    background: rgb(153, 165, 127);
+}
+div {
+    background-color: $main;
+    button {
+        padding: .3em 1em;
+        box-shadow: .03em .03em .1em .1em black;
+        transition-duration: 600ms;
+        border-radius: .3em;
+        background-color:whitesmoke;
+        &:hover {
+            box-shadow: .03em .03em .3em .3em black;
         }
     }
 }
