@@ -11,6 +11,11 @@ console.log(process.env.NODE_ENV);
 module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
+ /* entry: [
+    'core-js/modules/es6.promise',
+    'core-js/modules/es6.array.iterator',
+    path.resolve(__dirname, 'src/main.js')
+  ],*/
   plugins: [
     new webpack.HashedModuleIdsPlugin(),
     new MiniCssExtractPlugin({
@@ -32,7 +37,7 @@ module.exports = merge(common, {
     minimizer: [
       new OptimizeCSSAssetsPlugin({}),
       new TerserPlugin({
-        // cache: true,
+        cache: true,
         parallel: true,
         sourceMap: true
       })
@@ -48,6 +53,16 @@ module.exports = merge(common, {
           { loader: 'postcss-loader' },
           { loader: 'sass-loader' }
         ]
+      },
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          }
+        }
       }
     ]
   },
