@@ -1,15 +1,8 @@
-/* module.exports = ctx => ({
-  parser: ctx.parser ? 'sugarss' : false,
-  map: ctx.env === 'development' ? ctx.map : false,
+module.exports = ({ file, options, env }) => ({
   plugins: {
-    'postcss-import': {},
-    'postcss-nested': {},
-    cssnano: ctx.env === 'production' ? {} : false
-  }
-}); */
-module.exports = {
-  map: false,
-  plugins: {
+    // 'postcss-import': { root: file.dirname },
+    // 'postcss-preset-env': options['postcss-preset-env'] ? options['postcss-preset-env'] : false,
+    cssnano: env === 'production' ? {} : false,
     autoprefixer: { browsers: ['last 2 versions', '> 5%'] }
   }
-};
+});

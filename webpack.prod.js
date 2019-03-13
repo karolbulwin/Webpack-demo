@@ -1,7 +1,7 @@
 const path = require('path');
 const merge = require('webpack-merge');
 const TerserPlugin = require('terser-webpack-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+// const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 const common = require('./webpack.common.js');
@@ -11,16 +11,11 @@ console.log(process.env.NODE_ENV);
 module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
- /* entry: [
-    'core-js/modules/es6.promise',
-    'core-js/modules/es6.array.iterator',
-    path.resolve(__dirname, 'src/main.js')
-  ],*/
   plugins: [
     new webpack.HashedModuleIdsPlugin(),
     new MiniCssExtractPlugin({
-      filename: '[name].[contenthash].css',
-      chunkFilename: '[id].[contenthash].css'
+      filename: '[contenthash].css',
+      chunkFilename: '[contenthash].css'
     })
   ],
   optimization: {
@@ -35,7 +30,7 @@ module.exports = merge(common, {
       }
     },
     minimizer: [
-      new OptimizeCSSAssetsPlugin({}),
+      // new OptimizeCSSAssetsPlugin(),
       new TerserPlugin({
         cache: true,
         parallel: true,
@@ -60,7 +55,7 @@ module.exports = merge(common, {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'],
+            presets: ['@babel/preset-env']
           }
         }
       }

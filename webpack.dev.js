@@ -1,6 +1,6 @@
 const path = require('path');
 const merge = require('webpack-merge');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 const common = require('./webpack.common.js');
 
@@ -13,11 +13,11 @@ module.exports = merge(common, {
     hot: true
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new MiniCssExtractPlugin({
+    new webpack.HotModuleReplacementPlugin()
+    /* new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
-    })
+    }) */
   ],
   module: {
     rules: [
