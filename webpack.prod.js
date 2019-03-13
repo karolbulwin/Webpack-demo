@@ -14,8 +14,8 @@ module.exports = merge(common, {
   plugins: [
     new webpack.HashedModuleIdsPlugin(),
     new MiniCssExtractPlugin({
-      filename: '[contenthash].css',
-      chunkFilename: '[contenthash].css'
+      filename: '/public/styles/[contenthash].css',
+      chunkFilename: '/public/styles/[contenthash].css'
     })
   ],
   optimization: {
@@ -58,12 +58,26 @@ module.exports = merge(common, {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'public/images'
+            }
+          },
+          {
+            loader: 'image-webpack-loader'
+          }
+        ]
       }
     ]
   },
   output: {
-    filename: '[name].[contenthash].js',
-    chunkFilename: '[name].[contenthash].js',
+    filename: 'js/[name].[contenthash].js',
+    chunkFilename: 'js/[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist')
   }
 });
