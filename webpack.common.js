@@ -9,13 +9,29 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      meta: {
-        viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
-        'theme-color': '#4285f4',
-        description: 'playing with webpack',
-        author: 'Karol Bulwin'
-      },
-      title: 'Webpack'
+      inject: false,
+      template: require('html-webpack-template'),
+      meta: [
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+        },
+        {
+          name: 'theme-color',
+          content: '#4285f4'
+        },
+        {
+          name: 'description',
+          content: 'playing with webpack'
+
+        },
+        {
+          name: 'author',
+          content: 'Karol Bulwin'
+        }
+      ],
+      title: 'Webpack',
+      lang: 'en-US'
     })
   ]
 };
