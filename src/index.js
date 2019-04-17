@@ -24,6 +24,24 @@ function component() {
     print();
   })
 
+  var io = new IntersectionObserver(
+    entries => {
+      console.log(entries);
+      console.log(entries[0].isIntersecting)
+      if (entries[0].isIntersecting) {
+        import('./ele');
+      }
+
+      // import('./ele');
+    },
+    {
+      /* Using default options. Details below */
+    }
+  );
+  // Start observing an element
+  io.observe(element);
+  console.log(io);
+  
   element.appendChild(btn);
   element.appendChild(pre);
 
