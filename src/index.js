@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import '../public/stylesheets/styles.scss';
+import headerComponent from './header.js';
 import { cube } from './math.js';
 
 if (process.env.NODE_ENV !== 'production') {
@@ -43,9 +44,9 @@ function component() {
   console.log(io);
   
   element.appendChild(btn);
-  element.appendChild(pre);
 
   return element;
 }
+document.body.appendChild(headerComponent());
 
 document.body.appendChild(component());
