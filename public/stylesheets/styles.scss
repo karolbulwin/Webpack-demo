@@ -1,29 +1,88 @@
-@import 'colors.scss';
+@import 'colors';
+@import 'init';
 
 body {
-    background: rgb(153, 165, 127);
-    height: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 1em;
+    text-shadow: 1px 1px 1px transparentize($color: $color-secondary, $amount: 0.7);
 }
 
 header {
-    height: 100%;
+    width: 100%;
     > div {
+        background-color: $color-primary;
         text-align: center;
-        padding: 1em 0;
+        padding: 3em 0;
+        box-shadow: 0px 2px 3px 2px transparentize($color: $color-secondary, $amount: 0.7);
     }
 }
 
-div {
-    background-color: $main;
-    button {
-        padding: .3em 1em;
-        margin: .5em;
-        box-shadow: .03em .03em .1em .1em black;
-        transition-duration: 600ms;
-        border-radius: .3em;
-        background-color:whitesmoke;
-        &:hover {
-            box-shadow: .03em .03em .3em .3em black;
-        }
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    > div {
+        align-items: center;
+    }
+    .img-container {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        background-size: cover;
+        margin: 1em 0 3em 0;
+    }
+    .container{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: row;
+    }
+    .load-bttn-container{
+        width: 100%;
+        button {
+            padding: .3em 1em;
+            margin: .9em;
+            box-shadow: .03em .03em .1em .1em $color-secondary;
+            transition-duration: 600ms;
+            border-radius: .3em;
+            background-color: $color-button-bg;
+            &:hover {
+                box-shadow: .03em .03em .2em .2em $color-secondary;
+            }
+            &:active {
+                background-color: darken($color: $color-button-bg, $amount: 10%);
+            }
+        }    
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: $color-primary;
+    text-align: center;
+    padding: .8em;
+    color: $color-secondary;
+    margin-top: 2em;
+    small {
+        font-size: .8em;
     }
 }
