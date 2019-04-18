@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{nifV:function(n,o,e){"use strict";e.r(o);var i=e("LvDl"),s=e.n(i);console.log(s.a.join(["Another","module","loaded!"]," "))}},[["nifV",0,1]]]);
-//# sourceMappingURL=another.165e96f29eec1b8d14f7.js.map
