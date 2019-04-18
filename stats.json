@@ -2,17 +2,17 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "aebefb249d0aa68ee57a",
-  "time": 3201,
-  "builtAt": 1555617544986,
+  "hash": "f06a791e079fb79e4271",
+  "time": 2787,
+  "builtAt": 1555617957962,
   "publicPath": "",
   "outputPath": "/home/kbkjb/Documents/github/webpack/dist",
   "assetsByChunkName": {
     "app": [
       "public/styles/ae2f40eab1215456e445.css",
-      "js/app.0d53477ba03ba94a4cb3.js",
+      "js/app.05bac34c92928f474956.js",
       "public/styles/ae2f40eab1215456e445.css.map",
-      "js/app.0d53477ba03ba94a4cb3.js.map"
+      "js/app.05bac34c92928f474956.js.map"
     ],
     "runtime": [
       "js/runtime.d53194b53d1219fbebb4.js",
@@ -82,8 +82,8 @@
       "emitted": true
     },
     {
-      "name": "js/app.0d53477ba03ba94a4cb3.js",
-      "size": 1244,
+      "name": "js/app.05bac34c92928f474956.js",
+      "size": 1240,
       "chunks": [
         0
       ],
@@ -93,8 +93,8 @@
       "emitted": true
     },
     {
-      "name": "js/app.0d53477ba03ba94a4cb3.js.map",
-      "size": 3692,
+      "name": "js/app.05bac34c92928f474956.js.map",
+      "size": 3665,
       "chunks": [
         0
       ],
@@ -271,30 +271,12 @@
         "js/runtime.d53194b53d1219fbebb4.js",
         "js/runtime.d53194b53d1219fbebb4.js.map",
         "public/styles/ae2f40eab1215456e445.css",
-        "js/app.0d53477ba03ba94a4cb3.js",
+        "js/app.05bac34c92928f474956.js",
         "public/styles/ae2f40eab1215456e445.css.map",
-        "js/app.0d53477ba03ba94a4cb3.js.map"
+        "js/app.05bac34c92928f474956.js.map"
       ],
-      "children": {
-        "prefetch": [
-          {
-            "name": null,
-            "chunks": [
-              4
-            ],
-            "assets": [
-              "js/4.f711e2ae3de27934413c.js",
-              "js/4.f711e2ae3de27934413c.js.map"
-            ]
-          }
-        ]
-      },
-      "childAssets": {
-        "prefetch": [
-          "js/4.f711e2ae3de27934413c.js",
-          "js/4.f711e2ae3de27934413c.js.map"
-        ]
-      }
+      "children": {},
+      "childAssets": {}
     }
   },
   "namedChunkGroups": {
@@ -307,30 +289,12 @@
         "js/runtime.d53194b53d1219fbebb4.js",
         "js/runtime.d53194b53d1219fbebb4.js.map",
         "public/styles/ae2f40eab1215456e445.css",
-        "js/app.0d53477ba03ba94a4cb3.js",
+        "js/app.05bac34c92928f474956.js",
         "public/styles/ae2f40eab1215456e445.css.map",
-        "js/app.0d53477ba03ba94a4cb3.js.map"
+        "js/app.05bac34c92928f474956.js.map"
       ],
-      "children": {
-        "prefetch": [
-          {
-            "name": null,
-            "chunks": [
-              4
-            ],
-            "assets": [
-              "js/4.f711e2ae3de27934413c.js",
-              "js/4.f711e2ae3de27934413c.js.map"
-            ]
-          }
-        ]
-      },
-      "childAssets": {
-        "prefetch": [
-          "js/4.f711e2ae3de27934413c.js",
-          "js/4.f711e2ae3de27934413c.js.map"
-        ]
-      }
+      "children": {},
+      "childAssets": {}
     }
   },
   "chunks": [
@@ -339,17 +303,17 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 6635,
+      "size": 6594,
       "names": [
         "app"
       ],
       "files": [
         "public/styles/ae2f40eab1215456e445.css",
-        "js/app.0d53477ba03ba94a4cb3.js",
+        "js/app.05bac34c92928f474956.js",
         "public/styles/ae2f40eab1215456e445.css.map",
-        "js/app.0d53477ba03ba94a4cb3.js.map"
+        "js/app.05bac34c92928f474956.js.map"
       ],
-      "hash": "913a7bbf020c7f2265d1",
+      "hash": "7df3bde80e8acfa473f4",
       "siblings": [
         1
       ],
@@ -358,11 +322,7 @@
         2,
         4
       ],
-      "childrenByOrder": {
-        "prefetch": [
-          4
-        ]
-      },
+      "childrenByOrder": {},
       "modules": [
         {
           "id": "",
@@ -386,8 +346,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -395,8 +355,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/mini-css-extract-plugin/dist/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/css-loader/dist/cjs.js!/home/kbkjb/Documents/github/webpack/node_modules/postcss-loader/src/index.js!/home/kbkjb/Documents/github/webpack/node_modules/sass-loader/lib/loader.js!/home/kbkjb/Documents/github/webpack/public/stylesheets/styles.scss",
               "name": "./public/stylesheets/styles.scss",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
@@ -446,14 +406,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             }
           ],
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           },
           "failed": false,
           "errors": 0,
@@ -484,7 +444,7 @@
           "name": "./src/index.js + 3 modules",
           "index": 0,
           "index2": 5,
-          "size": 2110,
+          "size": 2069,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -522,7 +482,7 @@
               "name": "./src/index.js",
               "index": 0,
               "index2": 5,
-              "size": 802,
+              "size": 761,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -533,8 +493,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               },
               "failed": false,
               "errors": 0,
@@ -557,7 +517,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "import '../public/stylesheets/styles.scss';\nimport mainComponent from './main.js';\nimport headerComponent from './header.js';\nimport footerComponent from './footer.js';\n\nif (process.env.NODE_ENV !== 'production') {\n  console.log('Looks like we are in development mode!');\n}\n\nfunction observer(element) {\n  var io = new IntersectionObserver(function (entries) {\n    if (entries[0].isIntersecting) {\n      import('./img');\n      import(\n      /* webpackPrefetch: true */\n      './loadButton');\n    }\n  }, {\n    /* Using default options. Details below */\n  }); // Start observing an element\n\n  io.observe(element);\n}\n\ndocument.body.appendChild(headerComponent());\ndocument.body.appendChild(mainComponent());\nobserver(document.querySelector('.img-container'));\ndocument.body.appendChild(footerComponent());"
+              "source": "import '../public/stylesheets/styles.scss';\nimport mainComponent from './main.js';\nimport headerComponent from './header.js';\nimport footerComponent from './footer.js';\n\nif (process.env.NODE_ENV !== 'production') {\n  console.log('Looks like we are in development mode!');\n}\n\nfunction observer(element) {\n  var io = new IntersectionObserver(function (entries) {\n    if (entries[0].isIntersecting) {\n      import('./img');\n      import('./loadButton');\n    }\n  }, {\n    /* Using default options. Details below */\n  }); // Start observing an element\n\n  io.observe(element);\n}\n\ndocument.body.appendChild(headerComponent());\ndocument.body.appendChild(mainComponent());\nobserver(document.querySelector('.img-container'));\ndocument.body.appendChild(footerComponent());"
             },
             {
               "id": null,
@@ -580,14 +540,14 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
                   "name": "./src/index.js",
                   "profile": {
-                    "factory": 113,
-                    "building": 313
+                    "factory": 146,
+                    "building": 304
                   }
                 }
               ],
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               },
               "failed": false,
               "errors": 0,
@@ -610,7 +570,7 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./main.js",
-                  "loc": "26:26-39"
+                  "loc": "24:26-39"
                 }
               ],
               "usedExports": [
@@ -644,14 +604,14 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
                   "name": "./src/index.js",
                   "profile": {
-                    "factory": 113,
-                    "building": 313
+                    "factory": 146,
+                    "building": 304
                   }
                 }
               ],
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               },
               "failed": false,
               "errors": 0,
@@ -674,7 +634,7 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./header.js",
-                  "loc": "25:26-41"
+                  "loc": "23:26-41"
                 }
               ],
               "usedExports": [
@@ -708,14 +668,14 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
                   "name": "./src/index.js",
                   "profile": {
-                    "factory": 113,
-                    "building": 313
+                    "factory": 146,
+                    "building": 304
                   }
                 }
               ],
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               },
               "failed": false,
               "errors": 0,
@@ -738,7 +698,7 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./footer.js",
-                  "loc": "28:26-41"
+                  "loc": "26:26-41"
                 }
               ],
               "usedExports": [
@@ -846,8 +806,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -855,14 +815,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -932,14 +892,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             }
           ],
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           },
           "failed": false,
           "errors": 0,
@@ -987,8 +947,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -996,14 +956,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1064,8 +1024,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1073,14 +1033,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1141,8 +1101,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1150,14 +1110,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1218,8 +1178,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1227,14 +1187,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1295,8 +1255,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1304,14 +1264,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1372,8 +1332,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1381,14 +1341,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1449,8 +1409,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1458,14 +1418,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
               "name": "./src/img.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 406,
-            "building": 997
+            "factory": 301,
+            "building": 890
           },
           "failed": false,
           "errors": 0,
@@ -1559,8 +1519,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1568,8 +1528,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -1577,14 +1537,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -1645,8 +1605,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1654,8 +1614,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -1663,14 +1623,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -1731,8 +1691,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1740,8 +1700,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -1749,14 +1709,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -1826,8 +1786,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1835,8 +1795,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -1844,14 +1804,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -1912,8 +1872,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -1921,8 +1881,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -1930,14 +1890,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -1998,8 +1958,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -2007,8 +1967,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -2016,14 +1976,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -2084,8 +2044,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -2093,14 +2053,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             }
           ],
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           },
           "failed": false,
           "errors": 0,
@@ -2148,8 +2108,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -2157,8 +2117,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -2166,14 +2126,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -2234,8 +2194,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             },
             {
@@ -2243,8 +2203,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
               "name": "./src/loadButton.js",
               "profile": {
-                "factory": 167,
-                "building": 2045
+                "factory": 115,
+                "building": 1856
               }
             },
             {
@@ -2252,14 +2212,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
               "name": "./src/loadImgButton.js",
               "profile": {
-                "factory": 194,
-                "building": 141
+                "factory": 121,
+                "building": 125
               }
             }
           ],
           "profile": {
-            "factory": 46,
-            "building": 998
+            "factory": 37,
+            "building": 891
           },
           "failed": false,
           "errors": 0,
@@ -2356,14 +2316,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             }
           ],
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           },
           "failed": false,
           "errors": 0,
@@ -2377,7 +2337,7 @@
               "moduleName": "./src/index.js",
               "type": "import()",
               "userRequest": "./loadButton",
-              "loc": "14:6-16:21"
+              "loc": "14:6-28"
             }
           ],
           "usedExports": true,
@@ -2398,7 +2358,7 @@
           "module": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "moduleIdentifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "moduleName": "./src/index.js",
-          "loc": "14:6-16:21",
+          "loc": "14:6-28",
           "request": "./loadButton",
           "reasons": []
         }
@@ -2428,8 +2388,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2437,8 +2397,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/mini-css-extract-plugin/dist/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/css-loader/dist/cjs.js!/home/kbkjb/Documents/github/webpack/node_modules/postcss-loader/src/index.js!/home/kbkjb/Documents/github/webpack/node_modules/sass-loader/lib/loader.js!/home/kbkjb/Documents/github/webpack/public/stylesheets/styles.scss",
           "name": "./public/stylesheets/styles.scss",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
@@ -2488,8 +2448,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2497,8 +2457,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -2506,14 +2466,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -2574,8 +2534,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2583,14 +2543,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -2660,14 +2620,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         }
       ],
       "profile": {
-        "factory": 167,
-        "building": 2045
+        "factory": 115,
+        "building": 1856
       },
       "failed": false,
       "errors": 0,
@@ -2715,8 +2675,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2724,14 +2684,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -2792,8 +2752,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2801,14 +2761,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -2869,8 +2829,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2878,8 +2838,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -2887,14 +2847,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -2955,8 +2915,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -2964,14 +2924,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -3032,14 +2992,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         }
       ],
       "profile": {
-        "factory": 167,
-        "building": 2045
+        "factory": 115,
+        "building": 1856
       },
       "failed": false,
       "errors": 0,
@@ -3087,8 +3047,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3096,14 +3056,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -3164,8 +3124,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3173,8 +3133,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -3182,14 +3142,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -3259,8 +3219,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3268,8 +3228,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -3277,14 +3237,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -3345,14 +3305,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         }
       ],
       "profile": {
-        "factory": 167,
-        "building": 2045
+        "factory": 115,
+        "building": 1856
       },
       "failed": false,
       "errors": 0,
@@ -3366,7 +3326,7 @@
           "moduleName": "./src/index.js",
           "type": "import()",
           "userRequest": "./loadButton",
-          "loc": "14:6-16:21"
+          "loc": "14:6-28"
         }
       ],
       "usedExports": true,
@@ -3402,8 +3362,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3411,8 +3371,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -3420,14 +3380,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -3488,8 +3448,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3497,8 +3457,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -3506,14 +3466,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -3574,8 +3534,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3583,14 +3543,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -3651,8 +3611,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3660,14 +3620,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 194,
-        "building": 141
+        "factory": 121,
+        "building": 125
       },
       "failed": false,
       "errors": 0,
@@ -3715,8 +3675,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3724,8 +3684,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -3733,14 +3693,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -3801,8 +3761,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -3810,14 +3770,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -3861,7 +3821,7 @@
       "name": "./src/index.js + 3 modules",
       "index": 0,
       "index2": 5,
-      "size": 2110,
+      "size": 2069,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3899,7 +3859,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 5,
-          "size": 802,
+          "size": 761,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3910,8 +3870,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           },
           "failed": false,
           "errors": 0,
@@ -3934,7 +3894,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "import '../public/stylesheets/styles.scss';\nimport mainComponent from './main.js';\nimport headerComponent from './header.js';\nimport footerComponent from './footer.js';\n\nif (process.env.NODE_ENV !== 'production') {\n  console.log('Looks like we are in development mode!');\n}\n\nfunction observer(element) {\n  var io = new IntersectionObserver(function (entries) {\n    if (entries[0].isIntersecting) {\n      import('./img');\n      import(\n      /* webpackPrefetch: true */\n      './loadButton');\n    }\n  }, {\n    /* Using default options. Details below */\n  }); // Start observing an element\n\n  io.observe(element);\n}\n\ndocument.body.appendChild(headerComponent());\ndocument.body.appendChild(mainComponent());\nobserver(document.querySelector('.img-container'));\ndocument.body.appendChild(footerComponent());"
+          "source": "import '../public/stylesheets/styles.scss';\nimport mainComponent from './main.js';\nimport headerComponent from './header.js';\nimport footerComponent from './footer.js';\n\nif (process.env.NODE_ENV !== 'production') {\n  console.log('Looks like we are in development mode!');\n}\n\nfunction observer(element) {\n  var io = new IntersectionObserver(function (entries) {\n    if (entries[0].isIntersecting) {\n      import('./img');\n      import('./loadButton');\n    }\n  }, {\n    /* Using default options. Details below */\n  }); // Start observing an element\n\n  io.observe(element);\n}\n\ndocument.body.appendChild(headerComponent());\ndocument.body.appendChild(mainComponent());\nobserver(document.querySelector('.img-container'));\ndocument.body.appendChild(footerComponent());"
         },
         {
           "id": null,
@@ -3957,14 +3917,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             }
           ],
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           },
           "failed": false,
           "errors": 0,
@@ -3987,7 +3947,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./main.js",
-              "loc": "26:26-39"
+              "loc": "24:26-39"
             }
           ],
           "usedExports": [
@@ -4021,14 +3981,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             }
           ],
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           },
           "failed": false,
           "errors": 0,
@@ -4051,7 +4011,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./header.js",
-              "loc": "25:26-41"
+              "loc": "23:26-41"
             }
           ],
           "usedExports": [
@@ -4085,14 +4045,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 113,
-                "building": 313
+                "factory": 146,
+                "building": 304
               }
             }
           ],
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           },
           "failed": false,
           "errors": 0,
@@ -4115,7 +4075,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./footer.js",
-              "loc": "28:26-41"
+              "loc": "26:26-41"
             }
           ],
           "usedExports": [
@@ -4154,8 +4114,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -4163,8 +4123,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadButton.js",
           "name": "./src/loadButton.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         },
         {
@@ -4172,14 +4132,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/loadImgButton.js",
           "name": "./src/loadImgButton.js",
           "profile": {
-            "factory": 194,
-            "building": 141
+            "factory": 121,
+            "building": 125
           }
         }
       ],
       "profile": {
-        "factory": 46,
-        "building": 998
+        "factory": 37,
+        "building": 891
       },
       "failed": false,
       "errors": 0,
@@ -4240,8 +4200,8 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 113,
-            "building": 313
+            "factory": 146,
+            "building": 304
           }
         },
         {
@@ -4249,14 +4209,14 @@
           "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/babel-loader/lib/index.js??ref--5!/home/kbkjb/Documents/github/webpack/src/img.js",
           "name": "./src/img.js",
           "profile": {
-            "factory": 167,
-            "building": 2045
+            "factory": 115,
+            "building": 1856
           }
         }
       ],
       "profile": {
-        "factory": 406,
-        "building": 997
+        "factory": 301,
+        "building": 890
       },
       "failed": false,
       "errors": 0,
@@ -4379,14 +4339,14 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-plugin/lib/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-template/index.ejs",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-template/index.ejs",
                   "profile": {
-                    "factory": 62,
-                    "building": 47
+                    "factory": 80,
+                    "building": 62
                   }
                 }
               ],
               "profile": {
-                "factory": 4,
-                "building": 1848
+                "factory": 5,
+                "building": 1590
               },
               "failed": false,
               "errors": 0,
@@ -4434,8 +4394,8 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-plugin/lib/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-template/index.ejs",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-template/index.ejs",
                   "profile": {
-                    "factory": 62,
-                    "building": 47
+                    "factory": 80,
+                    "building": 62
                   }
                 },
                 {
@@ -4443,13 +4403,13 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/lodash/lodash.js",
                   "name": "./node_modules/lodash/lodash.js",
                   "profile": {
-                    "factory": 4,
-                    "building": 1848
+                    "factory": 5,
+                    "building": 1590
                   }
                 }
               ],
               "profile": {
-                "factory": 7,
+                "factory": 9,
                 "building": 4
               },
               "failed": false,
@@ -4494,8 +4454,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 62,
-                "building": 47
+                "factory": 80,
+                "building": 62
               },
               "failed": false,
               "errors": 0,
@@ -4542,8 +4502,8 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-plugin/lib/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-template/index.ejs",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-template/index.ejs",
                   "profile": {
-                    "factory": 62,
-                    "building": 47
+                    "factory": 80,
+                    "building": 62
                   }
                 },
                 {
@@ -4551,13 +4511,13 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/lodash/lodash.js",
                   "name": "./node_modules/lodash/lodash.js",
                   "profile": {
-                    "factory": 4,
-                    "building": 1848
+                    "factory": 5,
+                    "building": 1590
                   }
                 }
               ],
               "profile": {
-                "factory": 7,
+                "factory": 9,
                 "building": 4
               },
               "failed": false,
@@ -4621,14 +4581,14 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-plugin/lib/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-template/index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-template/index.ejs",
               "profile": {
-                "factory": 62,
-                "building": 47
+                "factory": 80,
+                "building": 62
               }
             }
           ],
           "profile": {
-            "factory": 4,
-            "building": 1848
+            "factory": 5,
+            "building": 1590
           },
           "failed": false,
           "errors": 0,
@@ -4676,8 +4636,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-plugin/lib/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-template/index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-template/index.ejs",
               "profile": {
-                "factory": 62,
-                "building": 47
+                "factory": 80,
+                "building": 62
               }
             },
             {
@@ -4685,13 +4645,13 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 4,
-                "building": 1848
+                "factory": 5,
+                "building": 1590
               }
             }
           ],
           "profile": {
-            "factory": 7,
+            "factory": 9,
             "building": 4
           },
           "failed": false,
@@ -4736,8 +4696,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 62,
-            "building": 47
+            "factory": 80,
+            "building": 62
           },
           "failed": false,
           "errors": 0,
@@ -4784,8 +4744,8 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-plugin/lib/loader.js!/home/kbkjb/Documents/github/webpack/node_modules/html-webpack-template/index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-template/index.ejs",
               "profile": {
-                "factory": 62,
-                "building": 47
+                "factory": 80,
+                "building": 62
               }
             },
             {
@@ -4793,13 +4753,13 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 4,
-                "building": 1848
+                "factory": 5,
+                "building": 1590
               }
             }
           ],
           "profile": {
-            "factory": 7,
+            "factory": 9,
             "building": 4
           },
           "failed": false,
@@ -4904,13 +4864,13 @@
                   "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/css-loader/dist/cjs.js!/home/kbkjb/Documents/github/webpack/node_modules/postcss-loader/src/index.js!/home/kbkjb/Documents/github/webpack/node_modules/sass-loader/lib/loader.js!/home/kbkjb/Documents/github/webpack/public/stylesheets/styles.scss",
                   "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/sass-loader/lib/loader.js!./public/stylesheets/styles.scss",
                   "profile": {
-                    "factory": 4,
-                    "building": 1997
+                    "factory": 3,
+                    "building": 1812
                   }
                 }
               ],
               "profile": {
-                "factory": 5,
+                "factory": 7,
                 "building": 12
               },
               "failed": false,
@@ -4955,8 +4915,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 4,
-                "building": 1997
+                "factory": 3,
+                "building": 1812
               },
               "failed": false,
               "errors": 0,
@@ -5019,13 +4979,13 @@
               "identifier": "/home/kbkjb/Documents/github/webpack/node_modules/css-loader/dist/cjs.js!/home/kbkjb/Documents/github/webpack/node_modules/postcss-loader/src/index.js!/home/kbkjb/Documents/github/webpack/node_modules/sass-loader/lib/loader.js!/home/kbkjb/Documents/github/webpack/public/stylesheets/styles.scss",
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/sass-loader/lib/loader.js!./public/stylesheets/styles.scss",
               "profile": {
-                "factory": 4,
-                "building": 1997
+                "factory": 3,
+                "building": 1812
               }
             }
           ],
           "profile": {
-            "factory": 5,
+            "factory": 7,
             "building": 12
           },
           "failed": false,
@@ -5070,8 +5030,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 4,
-            "building": 1997
+            "factory": 3,
+            "building": 1812
           },
           "failed": false,
           "errors": 0,
